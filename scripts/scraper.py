@@ -5,7 +5,6 @@ import os
 from dotenv import load_dotenv
 
 
-
 load_dotenv()
 
 api_id = int(os.getenv("api_id"))

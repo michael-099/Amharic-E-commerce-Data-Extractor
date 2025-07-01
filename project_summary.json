@@ -1,0 +1,165 @@
+{
+  "data_collection": {
+    "total_messages": 1200,
+    "channels": "{'@sinayelj', '@ZemenExpress', '@nevacomputer', '@ethio_brand_collection', '@Leyueqa', '@meneshayeofficial'}",
+    "media_files": 992,
+    "date_range": {
+      "start": "2024-05-10 20:51:20+00:00",
+      "end": "2025-07-01 05:29:39+00:00"
+    },
+    "channel_breakdown": {
+      "@ZemenExpress": {
+        "messages": 200,
+        "media": 161
+      },
+      "@nevacomputer": {
+        "messages": 200,
+        "media": 197
+      },
+      "@meneshayeofficial": {
+        "messages": 200,
+        "media": 97
+      },
+      "@ethio_brand_collection": {
+        "messages": 200,
+        "media": 199
+      },
+      "@Leyueqa": {
+        "messages": 200,
+        "media": 142
+      },
+      "@sinayelj": {
+        "messages": 200,
+        "media": 196
+      }
+    }
+  },
+  "labeled_data": {
+    "total_sentences": 3216,
+    "total_tokens": 174695,
+    "entity_counts": {
+      "PRODUCT": 14399,
+      "PRICE": 8204,
+      "LOC": 2920
+    },
+    "files_analyzed": [
+      "Data/labeled_telegram_product_price_location.txt",
+      "Data/merged_labeled_data.txt",
+      "Data/auto_labeled_training.txt"
+    ]
+  },
+  "vendor_scorecard": {
+    "total_vendors": 6,
+    "top_vendor": {
+      "name": "sinayelj",
+      "score": 79.04
+    },
+    "average_score": 69.44666666666667,
+    "score_distribution": {
+      "high_performers": 4,
+      "medium_performers": 2,
+      "low_performers": 0
+    },
+    "vendors": [
+      {
+        "Vendor": "sinayelj",
+        "Avg_Views_Per_Post": "2000",
+        "Posts_Per_Week": "73.68",
+        "Avg_Price_ETB": "6350.0",
+        "Price_Consistency": "0.04",
+        "Media_Ratio": "0.98",
+        "Lending_Score": 79.04,
+        "Total_Posts": "200",
+        "Date_Range_Days": "19"
+      },
+      {
+        "Vendor": "ZemenExpress",
+        "Avg_Views_Per_Post": "2000",
+        "Posts_Per_Week": "38.89",
+        "Avg_Price_ETB": "842.86",
+        "Price_Consistency": "0.42",
+        "Media_Ratio": "0.81",
+        "Lending_Score": 74.46,
+        "Total_Posts": "200",
+        "Date_Range_Days": "36"
+      },
+      {
+        "Vendor": "Leyueqa",
+        "Avg_Views_Per_Post": "2000",
+        "Posts_Per_Week": "36.84",
+        "Avg_Price_ETB": "2226.04",
+        "Price_Consistency": "0.34",
+        "Media_Ratio": "0.71",
+        "Lending_Score": 73.35,
+        "Total_Posts": "200",
+        "Date_Range_Days": "38"
+      },
+      {
+        "Vendor": "ethio_brand_collection",
+        "Avg_Views_Per_Post": "2000",
+        "Posts_Per_Week": "8.92",
+        "Avg_Price_ETB": "0",
+        "Price_Consistency": "0.0",
+        "Media_Ratio": "0.99",
+        "Lending_Score": 70.34,
+        "Total_Posts": "200",
+        "Date_Range_Days": "157"
+      },
+      {
+        "Vendor": "nevacomputer",
+        "Avg_Views_Per_Post": "2000",
+        "Posts_Per_Week": "3.45",
+        "Avg_Price_ETB": "0",
+        "Price_Consistency": "0.0",
+        "Media_Ratio": "0.98",
+        "Lending_Score": 60.89,
+        "Total_Posts": "200",
+        "Date_Range_Days": "406"
+      },
+      {
+        "Vendor": "meneshayeofficial",
+        "Avg_Views_Per_Post": "2000",
+        "Posts_Per_Week": "4.28",
+        "Avg_Price_ETB": "6670.59",
+        "Price_Consistency": "0.09",
+        "Media_Ratio": "0.48",
+        "Lending_Score": 58.6,
+        "Total_Posts": "200",
+        "Date_Range_Days": "327"
+      }
+    ]
+  },
+  "project_structure": {
+    "scripts": [
+      "conll_labeler.py",
+      "data_processor.py",
+      "model_evaluator.py",
+      "model_interpretability.py",
+      "ner_trainer.py",
+      "preprocess_amharic_text .py",
+      "project_summary.py",
+      "scraper.py",
+      "vendor_scorecard.py",
+      "__init__.py"
+    ],
+    "data_files": [
+      "auto_labeled_training.txt",
+      "channels_to_crawl.xlsx",
+      "labeled_telegram_product_price_location.txt",
+      "merged_labeled_data.txt",
+      "photos",
+      "photos.zip",
+      "telegram_data.xlsx",
+      "telegram_scrapper.py"
+    ],
+    "model_files": [],
+    "documentation": [
+      "README.md",
+      "requirements.txt",
+      "docs/final_report.md",
+      "docs/interim_report.md"
+    ],
+    "total_files": 22
+  },
+  "generation_time": "2025-07-01T09:16:34.577077"
+}
